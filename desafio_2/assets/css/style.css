@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  background-image: url("../imgs/keybg1.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 7em;
+}
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.subtitulo {
+  margin: 0;
+  font-size: 2rem;
+  font-family: monospace;
+  padding-left: 45px;
+}
+
+.cajaheader {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 2em;
+  width: 100%;
+}
+
+.cajaproducto {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  padding-right: 30px;
+}
+
+.productoinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.cajafooter {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+footer {
+  background-image: url(../imgs/keybg3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  text-align: left;
+  color: white;
+  height: 15rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
